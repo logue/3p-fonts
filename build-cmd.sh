@@ -28,6 +28,10 @@ cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-Oblique.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSansMono.ttf" "fonts/"
 
 # Copy Noto-CJK
+cp -r "$FONTS_SOURCE_DIR/noto/NotoSans-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/noto/*.ttf "fonts/"
+
+# Copy Noto-CJK
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoCJK-License.txt" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoSansCJK-Bold.ttc" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoSansCJK-Regular.ttc" "fonts/"
