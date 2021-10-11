@@ -20,6 +20,7 @@ FONTS_SOURCE_DIR="../fonts"
 mkdir -p fonts
 
 # Copy DejaVu
+cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVu-License.txt" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-Bold.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-BoldOblique.ttf" "fonts/"
