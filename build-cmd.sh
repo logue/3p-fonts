@@ -19,6 +19,10 @@ FONTS_SOURCE_DIR="../fonts"
 
 mkdir -p fonts
 
+# Copy Cascadia Code
+cp -r "$FONTS_SOURCE_DIR/cascadia/Cascadia-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/cascadia/*.ttf "fonts/"
+
 # Copy DejaVu
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVu-License.txt" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans.ttf" "fonts/"
@@ -26,6 +30,25 @@ cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-Bold.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-BoldOblique.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSans-Oblique.ttf" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSansMono.ttf" "fonts/"
+cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSansMono-Bold.ttf" "fonts/"
+cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSansMono-BoldOblique.ttf" "fonts/"
+cp -r "$FONTS_SOURCE_DIR/dejavu/DejaVuSansMono-Oblique.ttf" "fonts/"
+
+# Copy Fira Sans/Code
+cp -r "$FONTS_SOURCE_DIR/fira/Fira-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/fira/*.ttf "fonts/"
+
+# Copy IBMPlex
+cp -r "$FONTS_SOURCE_DIR/ibmplex/IBMPlex-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/ibmplex/*.ttf "fonts/"
+
+# Copy Jetbrains Mono
+cp -r "$FONTS_SOURCE_DIR/jetbrains/JetbrainsMono-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/jetbrains/*.ttf "fonts/"
+
+# Copy Monospace
+cp -r "$FONTS_SOURCE_DIR/monaspace/Monaspace-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/monaspace/*.otf "fonts/"
 
 # Copy Noto-CJK
 cp -r "$FONTS_SOURCE_DIR/noto/NotoSans-License.txt" "fonts/"
@@ -35,6 +58,18 @@ cp -r $FONTS_SOURCE_DIR/noto/*.ttf "fonts/"
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoCJK-License.txt" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoSansCJK-Bold.ttc" "fonts/"
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoSansCJK-Regular.ttc" "fonts/"
+
+# Copy OpenDyslexic
+cp -r "$FONTS_SOURCE_DIR/opendyslexic/OpenDyslexic-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/opendyslexic/*.otf "fonts/"
+
+# Copy Source Sans
+cp -r "$FONTS_SOURCE_DIR/source/SourceSans-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/source/*.ttf "fonts/"
+
+# Copy Ubuntu
+cp -r "$FONTS_SOURCE_DIR/ubuntu/Ubuntu-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/ubuntu/*.ttf "fonts/"
 
 mkdir -p LICENSES
 cp "../LICENSE.md" LICENSES/fonts.txt
