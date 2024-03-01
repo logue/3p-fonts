@@ -71,5 +71,9 @@ cp -r $FONTS_SOURCE_DIR/source/*.ttf "fonts/"
 cp -r "$FONTS_SOURCE_DIR/ubuntu/Ubuntu-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/ubuntu/*.ttf "fonts/"
 
+# Copy Twemoji
+cp -r $FONTS_SOURCE_DIR/twemoji/*.txt "fonts/"
+cp -r $FONTS_SOURCE_DIR/twemoji/*.ttf "fonts/"
+
 mkdir -p LICENSES
 cp "../LICENSE.md" LICENSES/fonts.txt
