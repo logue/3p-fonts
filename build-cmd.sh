@@ -40,7 +40,7 @@ cp -r $FONTS_SOURCE_DIR/fira/*.ttf "fonts/"
 
 # Copy IBMPlex
 cp -r "$FONTS_SOURCE_DIR/ibmplex/IBMPlex-License.txt" "fonts/"
-cp -r $FONTS_SOURCE_DIR/ibmplex/*.ttf "fonts/"
+cp -r $FONTS_SOURCE_DIR/ibmplex/*.otf "fonts/"
 
 # Copy Jetbrains Mono
 cp -r "$FONTS_SOURCE_DIR/jetbrains/JetbrainsMono-License.txt" "fonts/"
@@ -65,7 +65,7 @@ cp -r $FONTS_SOURCE_DIR/opendyslexic/*.otf "fonts/"
 
 # Copy Source Sans
 cp -r "$FONTS_SOURCE_DIR/source/SourceSans-License.txt" "fonts/"
-cp -r $FONTS_SOURCE_DIR/source/*.ttf "fonts/"
+cp -r $FONTS_SOURCE_DIR/source/*.otf "fonts/"
 
 # Copy Ubuntu
 cp -r "$FONTS_SOURCE_DIR/ubuntu/Ubuntu-License.txt" "fonts/"
