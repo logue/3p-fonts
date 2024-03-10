@@ -52,7 +52,7 @@ cp -r $FONTS_SOURCE_DIR/monaspace/*.otf "fonts/"
 
 # Copy Noto-CJK
 cp -r "$FONTS_SOURCE_DIR/noto/NotoSans-License.txt" "fonts/"
-cp -r $FONTS_SOURCE_DIR/noto/*.ttf "fonts/"
+cp -r $FONTS_SOURCE_DIR/noto/*.otf "fonts/"
 
 # Copy Noto-CJK
 cp -r "$FONTS_SOURCE_DIR/noto-cjk/NotoCJK-License.txt" "fonts/"
