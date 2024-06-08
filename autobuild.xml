@@ -4,7 +4,7 @@
     <key>package_description</key>
     <map>
       <key>canonical_repo</key>
-      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-fonts</string>
+      <string>https://github.com/AlchemyViewer/3p-fonts</string>
       <key>copyright</key>
       <string>Various Licenses</string>
       <key>description</key>
