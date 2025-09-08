@@ -46,6 +46,10 @@ cp -r $FONTS_SOURCE_DIR/ibmplex/*.otf "fonts/"
 cp -r "$FONTS_SOURCE_DIR/jetbrains/JetbrainsMono-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/jetbrains/*.ttf "fonts/"
 
+# Copy LINE Seed
+cp -r "$FONTS_SOURCE_DIR/line-seed/LINE-Seed-Sans-License.txt" "fonts/"
+cp -r $FONTS_SOURCE_DIR/line-seed/*.otf "fonts/"
+
 # Copy Monospace
 cp -r "$FONTS_SOURCE_DIR/monaspace/Monaspace-License.txt" "fonts/"
 cp -r $FONTS_SOURCE_DIR/monaspace/*.otf "fonts/"
